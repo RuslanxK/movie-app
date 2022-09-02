@@ -2,7 +2,7 @@ import { useState } from "react";
 import { addItem } from "../utils";
 
 const subscriptionsURL =
-  "https://movie-mania-application.herokuapp.com/api/subscriptions";
+  "https://movie-mania12.herokuapp.com/api/subscriptions";
 
 function SubscribeToMovie({ member, subscribers, movies, test }) {
   const [subscription, setSubscription] = useState({ name: "", date: "" });

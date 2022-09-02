@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getById, updateItem } from "../utils";
 
-const membersURL = "https://movie-mania-application.herokuapp.com/api/members";
+const membersURL = "https://movie-mania12.herokuapp.com/api/members";
 
 function EditMember() {
   const [member, setMember] = useState({});

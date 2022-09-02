@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { addItem } from "../utils";
 
-const membersURL = "https://movie-mania-application.herokuapp.com/api/members";
+const membersURL = "https://movie-mania12.herokuapp.com/api/members";
 
 function AddMember() {
   const [newMember, setNewMember] = useState({});

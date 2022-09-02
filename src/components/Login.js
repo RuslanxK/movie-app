@@ -5,8 +5,8 @@ import { useNavigate, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 
-const authURL = "https://movie-mania-application.herokuapp.com/api/auth/login";
-const usersURL = "https://movie-mania-application.herokuapp.com/api/users";
+const authURL = "https://movie-mania12.herokuapp.com/api/auth/login";
+const usersURL = "https://movie-mania12.herokuapp.com/api/users";
 
 function Login() {
   const navigate = useNavigate();

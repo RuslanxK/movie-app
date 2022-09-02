@@ -6,8 +6,8 @@ import axios from "axios";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCalendarPlus } from "@fortawesome/free-solid-svg-icons";
 
-const moviesURL = "https://movie-mania-application.herokuapp.com/api/movies";
-const subscribersURL = "https://movie-mania-application.herokuapp.com/api/subscriptions";
+const moviesURL = "https://movie-mania12.herokuapp.com/api/movies";
+const subscribersURL = "https://movie-mania12.herokuapp.com/api/subscriptions";
 
 function SubscriberWatched({ member }) {
   const [display, setDisplay] = useState(true);
@@ -34,9 +34,7 @@ function SubscriberWatched({ member }) {
     fetchData();
   }, [reducerValue]);
 
-
   const test = (value) => {
-
     if (value === true) {
       forceUpdate();
     }

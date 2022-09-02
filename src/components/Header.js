@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import { getById } from "../utils";
 
-const usersURL = "https://movie-mania-application.herokuapp.com/api/users";
+const usersURL = "https://movie-mania12.herokuapp.com/api/users";
 
 const Header = () => {
   const [user, setUser] = useState({});
@@ -30,16 +30,15 @@ const Header = () => {
         </div>
 
         <nav className="nav">
-          
-         
-            <a onClick={() => navigate("/movies")}>Movies</a>
-            <a onClick={() => navigate("/members")}>Members</a>
-            <a onClick={() => console.log(user)}>About us</a>
-          
+          <a onClick={() => navigate("/movies")}>Movies</a>
+          <a onClick={() => navigate("/members")}>Members</a>
+          <a onClick={() => console.log(user)}>About us</a>
         </nav>
         <div className="userInfo">
           <span id="fullname">
-            <span id="icon"><FontAwesomeIcon icon={faUser} /> {user.fullname}</span>
+            <span id="icon">
+              <FontAwesomeIcon icon={faUser} /> {user.fullname}
+            </span>
           </span>
           <button className="logout" onClick={() => navigate("/")}>
             Log out

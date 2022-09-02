@@ -10,8 +10,10 @@ function AllSubscribersWatched({ subscribers, movie, members }) {
     if (subscriber.movieid === movie._id && foundSubscriber) {
       return (
         <span key={subscriber._id}>
-          <Link to={`/members/?${foundSubscriber.name}`}>{foundSubscriber.name}</Link> -{" "}
-          {subscriber.date}
+          <Link to={`/members/?${foundSubscriber.name}`}>
+            {foundSubscriber.name}
+          </Link>{" "}
+          - {subscriber.date}
         </span>
       );
     }

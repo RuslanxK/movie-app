@@ -5,8 +5,9 @@ import SubscriberWatched from "./SubscriberWatched";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEdit, faTrash } from "@fortawesome/free-solid-svg-icons";
 
-const memberURL = "https://movie-mania-application.herokuapp.com/api/members";
-const subscriptionsURL = "https://movie-mania-application.herokuapp.com/api/subscriptions";
+const memberURL = "https://movie-mania12.herokuapp.com/api/members";
+const subscriptionsURL =
+  "https://movie-mania12.herokuapp.com/api/subscriptions";
 
 function Member({ member, callback }) {
   const [subscriptions, setSubscriptions] = useState([]);

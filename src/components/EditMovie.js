@@ -5,10 +5,9 @@ import FileBase64 from "react-file-base64";
 import Select from "react-select";
 import options from "./GenresOptions";
 
-const movieURL = "https://movie-mania-application.herokuapp.com/api/movies";
+const movieURL = "https://movie-mania12.herokuapp.com/api/movies";
 
 function EditMovie() {
-
   const { id } = useParams();
 
   const [movie, setMovie] = useState({

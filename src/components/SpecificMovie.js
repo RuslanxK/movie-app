@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { getById } from "../utils";
 import { useNavigate, useParams } from "react-router-dom";
 
-const moviesURL = "https://movie-mania-application.herokuapp.com/api/movies";
+const moviesURL = "https://movie-mania12.herokuapp.com/api/movies";
 
 function SpecificMovie() {
   const navigate = useNavigate();

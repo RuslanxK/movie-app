@@ -5,8 +5,8 @@ import { getAll } from "../utils";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faVideoCamera } from "@fortawesome/free-solid-svg-icons";
 
-const authURL = "https://movie-mania-application.herokuapp.com/api/auth/register";
-const usersURL = "https://movie-mania-application.herokuapp.com/api/users";
+const authURL = "https://movie-mania12.herokuapp.com/api/auth/register";
+const usersURL = "https://movie-mania12.herokuapp.com/api/users";
 
 function Register() {
   const navigate = useNavigate();

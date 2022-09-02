@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPerson } from "@fortawesome/free-solid-svg-icons";
 
-const membersURL = "https://movie-mania-application.herokuapp.com/api/members";
+const membersURL = "https://movie-mania12.herokuapp.com/api/members";
 
 function Members() {
   const navigate = useNavigate();
@@ -77,8 +77,6 @@ function Members() {
       forceUpdate();
     }
   };
-
-  
 
   const memberComp = currentMembers.map((member) => {
     return (
