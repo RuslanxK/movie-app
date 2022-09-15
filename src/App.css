@@ -9,6 +9,205 @@ body {
   background-color: #141414;
 }
 
+body,
+html {
+  overflow-x: hidden !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .movies {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    height: 500vh !important;
+  }
+
+  .movie {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .movie img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .movie span {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .movie-icons {
+    width: 50% !important;
+  }
+
+  .member-icons {
+    width: 35% !important;
+  }
+
+  .movie-icons svg,
+  .member-icons svg {
+    font-size: 2rem;
+  }
+
+  .header {
+    width: 100% !important;
+  }
+
+  .header-container {
+    width: 30% !important;
+  }
+
+  .logo {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+
+  .logo h1 {
+    font-size: 1.1rem !important;
+  }
+
+  .userInfo {
+    width: 70% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  #fullname {
+    display: none !important;
+  }
+
+  .nav {
+    background-color: #333333;
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+  }
+
+  .hero-text {
+    width: 30% !important;
+    padding: none !important;
+  }
+
+  .hero-text h1 {
+    font-size: 4rem !important;
+  }
+
+  .hero-text span {
+    font-size: 1.7rem !important;
+  }
+
+  .searchBar {
+    width: 100% !important;
+  }
+
+  .searchBar input {
+    width: 300px !important;
+  }
+
+  .subsWatched {
+    width: 100% !important;
+    height: 68% !important;
+    margin-top: -110px !important;
+  }
+
+  .specificMovie {
+    height: 120vh !important;
+  }
+
+  .specificMovieCard {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .specificMovieCard img {
+    width: 100% !important;
+  }
+
+  .specificContent {
+    width: 100% !important;
+  }
+
+  .subscriptionsPage {
+    height: 130vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .memberDiv {
+    margin: 10px;
+  }
+
+  .form {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 60vh !important;
+    justify-content: space-evenly !important;
+    width: 100% !important;
+  }
+
+  .addMovieForm {
+    height: 70vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .addMovieForm h1 {
+    width: 80% !important;
+  }
+
+  input[type="file"] {
+    margin-bottom: 25px !important;
+  }
+
+  .btns {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding-top: 25px !important;
+  }
+
+  .addMovieBtn {
+    font-size: large !important;
+  }
+
+  .addMemberForm {
+    height: 70vh !important;
+  }
+
+  .addMemberForm h1 {
+   
+    width: 80% !important;
+    text-align: center !important;
+  }
+}
+
 .loginPage {
   background: linear-gradient(
       to bottom,
