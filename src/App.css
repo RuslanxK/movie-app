@@ -223,7 +223,6 @@ body {
 
   .LoginForm input {
     width: 280px !important;
-    
   }
 
   .logo {
@@ -234,7 +233,6 @@ body {
   .loginBtn {
     text-align: center !important;
     margin: 0 auto !important;
-    
   }
 
   .footer {
@@ -292,21 +290,15 @@ body {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  
-  
 }
 
-
-.LoginForm::placeholder {
-
-    padding-left: 7px !important;
+.LoginForm input::placeholder {
+  padding-left: 7px !important;
 }
 
 .LoginForm span {
   color: red;
 }
-
-
 
 .buttonDiv {
   display: flex;
@@ -341,7 +333,6 @@ body {
   color: white;
   border: 1px solid #9733ee;
   font-weight: 600;
-  
 }
 
 .loginBtn:hover {
