@@ -142,7 +142,6 @@ html {
     flex-direction: column !important;
     width: 100% !important;
     text-align: center !important;
-    padding: 25px !important;
   }
 
   .specificMovieCard img {
@@ -151,7 +150,6 @@ html {
 
   .specificContent {
     width: 100% !important;
-    
   }
 
   .subscriptionsPage {
@@ -208,14 +206,10 @@ html {
   }
 
   .addMemberForm h1 {
-   
     width: 80% !important;
     text-align: center !important;
   }
 }
-
-
-
 
 .loginPage {
   background: linear-gradient(
