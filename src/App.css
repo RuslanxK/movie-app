@@ -208,6 +208,11 @@ body {
     text-align: center !important;
   }
 
+  .LoginForm {
+
+     width: 250px !important;
+  }
+
   .footer {
 
     width: 100% !important;
