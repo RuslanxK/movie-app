@@ -223,6 +223,7 @@ body {
 
   .LoginForm input {
     width: 280px !important;
+    
   }
 
   .logo {
@@ -299,6 +300,11 @@ body {
 .LoginForm ::placeholder {
   color: #ced4da;
   padding-left: 7px !important;
+}
+
+.loginForm input {
+
+   padding-left: 7px !important;
 }
 
 .buttonDiv {
