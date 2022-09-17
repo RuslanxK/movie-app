@@ -18,6 +18,12 @@ body {
     height: 650vh !important;
   }
 
+
+  .loginPage {
+
+     height: 100vh !important;
+  }
+
   .movie {
     display: flex !important;
     flex-direction: column !important;
