@@ -130,7 +130,7 @@ html {
   }
 
   .specificMovie {
-    height: 120vh !important;
+    height: 200vh !important;
   }
 
   .specificMovieCard {
@@ -146,7 +146,7 @@ html {
 
   .specificContent {
     width: 100% !important;
-    height: 200vh !important;
+    
   }
 
   .subscriptionsPage {
