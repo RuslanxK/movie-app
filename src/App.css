@@ -142,6 +142,7 @@ html {
     flex-direction: column !important;
     width: 100% !important;
     text-align: center !important;
+    padding: 25px !important;
   }
 
   .specificMovieCard img {
