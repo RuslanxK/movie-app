@@ -214,11 +214,15 @@ body {
 
   .LoginForm {
     padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
   }
 
   .LoginForm input {
 
-    width: 250px !important;
+    width: 280px !important;
   }
 
   .loginBtn {
