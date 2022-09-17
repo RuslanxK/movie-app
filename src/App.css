@@ -230,8 +230,8 @@ body {
 
   .logo {
      
-    text-align: center !important;
-    margin: 0 auto !important;
+   display: flex !important;
+   justify-content: center !important;
   }
 
   .loginBtn {
