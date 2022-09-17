@@ -221,10 +221,7 @@ body {
     text-align: center !important;
   }
 
-  .LoginForm input {
-    width: 280px !important;
-    
-  }
+  
 
   .logo {
     display: flex !important;
