@@ -73,6 +73,7 @@ body {
     width: 100% !important;
     display: flex !important;
     justify-content: flex-end !important;
+    font-size: 2.5rem !important;
   }
 
   .logo h1 {
