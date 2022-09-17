@@ -18,10 +18,8 @@ body {
     height: 650vh !important;
   }
 
-
   .loginPage {
-
-     height: 100vh !important;
+    height: 100vh !important;
   }
 
   .movie {
@@ -73,11 +71,11 @@ body {
     width: 100% !important;
     display: flex !important;
     justify-content: flex-end !important;
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
   }
 
   .logo h1 {
-    font-size: 1.1rem !important;
+    font-size: 1.3rem !important;
   }
 
   .userInfo {
@@ -224,19 +222,15 @@ body {
   }
 
   .LoginForm input {
-
     width: 280px !important;
-   
   }
 
   .logo {
-     
-   display: flex !important;
-   justify-content: center !important;
+    display: flex !important;
+    justify-content: center !important;
   }
 
   .loginBtn {
-
     text-align: center !important;
     margin: 0 auto !important;
   }
@@ -301,7 +295,6 @@ body {
 .LoginForm span {
   color: red;
 }
-
 
 .LoginForm ::placeholder {
   color: #ced4da;
