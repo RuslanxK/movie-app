@@ -228,6 +228,16 @@ body {
    
   }
 
+  .logo {
+     
+    text-align: center !important;
+  }
+
+  .LoginForm input::placeholder {
+
+     padding-left: 7px !important;
+  }
+
   .loginBtn {
 
     text-align: center !important;
