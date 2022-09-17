@@ -291,16 +291,17 @@ body {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 7px !important;
 }
 
 .LoginForm span {
   color: red;
 }
 
-.LoginForm ::placeholder {
+/* .LoginForm ::placeholder {
   color: #ced4da;
   padding-left: 7px !important;
-}
+} */
 
 
 .buttonDiv {
