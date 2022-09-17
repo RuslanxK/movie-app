@@ -208,11 +208,11 @@ body {
   }
 
   .LoginForm {
-    width: 240px !important;
+   
   }
 
   .loginBtn {
-    width: 270px !important;
+ 
   }
 
   .footer {
@@ -255,7 +255,6 @@ body {
 
 .LoginForm {
   background: rgba(0, 0, 0, 0.6);
-  width: 320px;
   height: 520px;
   display: flex;
   flex-direction: column;
