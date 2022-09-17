@@ -259,8 +259,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 75px;
-  padding-right: 75px;
+ 
 }
 
 .LoginForm input {
