@@ -216,8 +216,9 @@ body {
     padding: 0px !important;
     display: flex !important;
     flex-direction: column !important;
-    justify-content: center;
-    align-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
   }
 
   .LoginForm input {
