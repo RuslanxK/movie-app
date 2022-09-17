@@ -233,11 +233,6 @@ body {
     text-align: center !important;
   }
 
-  .LoginForm input::placeholder {
-
-     padding-left: 7px !important;
-  }
-
   .loginBtn {
 
     text-align: center !important;
@@ -305,8 +300,10 @@ body {
   color: red;
 }
 
+
 .LoginForm ::placeholder {
   color: #ced4da;
+  padding-left: 7px !important;
 }
 
 .buttonDiv {
@@ -339,7 +336,7 @@ body {
   transition: 0.5s;
   background-size: 200% auto;
   color: white;
-  border: none;
+  border: 1px solid #9733ee;
   font-weight: 600;
 }
 
