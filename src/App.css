@@ -146,6 +146,7 @@ html {
 
   .specificContent {
     width: 100% !important;
+    height: 200vh !important;
   }
 
   .subscriptionsPage {
