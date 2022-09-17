@@ -298,10 +298,6 @@ body {
   color: red;
 }
 
-/* .LoginForm ::placeholder {
-  color: #ced4da;
-  padding-left: 7px !important;
-} */
 
 
 .buttonDiv {
@@ -329,7 +325,7 @@ body {
     #9733ee 51%,
     #da22ff 100%
   );
-  padding: 12px 30px;
+  padding: 12px 32px;
   text-transform: uppercase;
   transition: 0.5s;
   background-size: 200% auto;
