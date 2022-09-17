@@ -20,7 +20,7 @@ html {
     flex-direction: column !important;
     justify-content: flex-start !important;
     align-items: center !important;
-    height: 500vh !important;
+    height: 600vh !important;
   }
 
   .movie {
@@ -108,11 +108,11 @@ html {
   }
 
   .hero-text h1 {
-    font-size: 4rem !important;
+    font-size: 3rem !important;
   }
 
   .hero-text span {
-    font-size: 1.7rem !important;
+    font-size: 1.4rem !important;
   }
 
   .searchBar {
