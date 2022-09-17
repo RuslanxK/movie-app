@@ -130,7 +130,7 @@ html {
   }
 
   .specificMovie {
-    height: 160vh !important;
+    height: 150vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
