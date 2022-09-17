@@ -297,14 +297,14 @@ body {
   color: red;
 }
 
-.LoginForm ::placeholder {
+/* .LoginForm ::placeholder {
   color: #ced4da;
   padding-left: 7px !important;
-}
+} */
 
 .loginForm input {
 
-  padding-right: 7px !important;
+  padding-left: 7px !important;
 }
 
 .buttonDiv {
