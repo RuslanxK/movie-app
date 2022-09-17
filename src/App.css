@@ -1,6 +1,5 @@
 * {
   font-family: "Urbanist", sans-serif;
- 
 }
 
 body {
@@ -208,13 +207,10 @@ body {
   }
 
   .LoginForm {
-   
-
     padding: 0px !important;
   }
 
   .loginBtn {
- 
   }
 
   .footer {
@@ -270,7 +266,8 @@ body {
   border: none;
   color: white;
   width: 100%;
-  
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .LoginForm span {
