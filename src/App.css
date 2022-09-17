@@ -97,6 +97,7 @@ body {
     text-align: center !important;
     display: flex !important;
     align-items: center !important;
+    background-size: cover !important;
   }
 
   .hero-text {
@@ -205,6 +206,11 @@ body {
   .addMemberForm h1 {
     width: 80% !important;
     text-align: center !important;
+  }
+
+  .footer {
+
+    width: 100% !important;
   }
 }
 
