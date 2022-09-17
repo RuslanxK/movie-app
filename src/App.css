@@ -219,11 +219,13 @@ body {
     justify-content: center !important;
     align-items: center !important;
     margin: 0 auto !important;
+    text-align: center !important;
   }
 
   .LoginForm input {
 
     width: 280px !important;
+    text-align: center !important;
   }
 
   .loginBtn {
