@@ -9,8 +9,6 @@ body {
   background-color: #141414;
 }
 
-
-
 @media only screen and (max-width: 767px) {
   .movies {
     display: flex !important;
@@ -209,18 +207,14 @@ body {
   }
 
   .LoginForm {
-
-     width: 250px !important;
+    width: 240px !important;
   }
 
   .loginBtn {
-
-    
     width: 270px !important;
   }
 
   .footer {
-
     width: 100% !important;
   }
 }
