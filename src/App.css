@@ -231,6 +231,7 @@ body {
   .logo {
      
     text-align: center !important;
+    margin: 0 auto !important;
   }
 
   .loginBtn {
