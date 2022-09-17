@@ -225,10 +225,13 @@ body {
   .LoginForm input {
 
     width: 280px !important;
-    text-align: center !important;
+   
   }
 
   .loginBtn {
+
+    text-align: center !important;
+    margin: 0 auto !important;
   }
 
   .footer {
