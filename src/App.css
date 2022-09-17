@@ -20,7 +20,6 @@ html {
     flex-direction: column !important;
     justify-content: flex-start !important;
     align-items: center !important;
-    height: 650vh !important;
   }
 
   .movie {
@@ -149,7 +148,7 @@ html {
   }
 
   .subscriptionsPage {
-    height: 200vh !important;
+    
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-start !important;
