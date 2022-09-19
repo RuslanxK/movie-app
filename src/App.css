@@ -143,7 +143,7 @@ body {
   }
 
   .specificMovie {
-    height: 150vh !important;
+    height: 110vh !important;
     display: flex !important;
     flex-direction: column !important;
     justify-content: center !important;
@@ -159,6 +159,7 @@ body {
 
   .specificMovieCard img {
     width: 100% !important;
+    height: 40vh !important;
   }
 
   .specificContent {
