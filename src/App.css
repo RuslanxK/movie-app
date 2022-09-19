@@ -220,6 +220,10 @@ body {
     background: none !important;
   }
 
+  input[type="submit"] {
+    margin: 0 auto;
+}
+
   .submitBtnDiv {
 
     display: flex;
