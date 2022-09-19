@@ -214,7 +214,7 @@ body {
   }
 
   input[type="file"] {
-    margin-bottom: 25px !important;
+    padding-bottom: 20px !important;
     font-size: 20px;
     width: 200px !important;
     background: none !important;
