@@ -64,18 +64,26 @@ body {
   }
 
   .header-container {
-    width: 30% !important;
+    width: 100% !important;
   }
 
   .logo {
-    width: 100% !important;
+    width: 50% !important;
     display: flex !important;
     justify-content: flex-end !important;
     font-size: 2rem !important;
   }
 
-  .logo h1 {
-    font-size: 1.3rem !important;
+  .header-container h1 {
+    font-size: 17px !important;
+  }
+
+  .nav {
+    width: 40% !important;
+  }
+
+  .logout {
+    width: 100% !important;
   }
 
   .userInfo {
@@ -104,8 +112,9 @@ body {
   }
 
   .hero-text {
-    width: 30% !important;
-    padding: none !important;
+    width: 100% !important;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 
   .hero-text h1 {
