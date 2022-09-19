@@ -218,7 +218,7 @@ body {
     font-size: 20px;
     width: 200px !important;
     background: none !important;
-    margin: 0 auto;
+    margin: 0 auto !important;
   }
 
   input[type="submit"] {
