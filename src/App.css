@@ -193,8 +193,8 @@ body {
     justify-content: center !important;
     align-items: center !important;
     flex-direction: column !important;
-    text-align: center !important;
-    width: 100% !important;
+    text-align:left !important;
+    
   }
 
   .file-btn {
