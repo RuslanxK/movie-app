@@ -25,7 +25,7 @@ const Header = () => {
     <div className="header">
       <div className="header-container">
         <div className="logo">
-          <h1>Movie Mania</h1>
+          <h1>MM</h1>
           <FontAwesomeIcon icon={faVideoCamera} />
         </div>
 
