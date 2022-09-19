@@ -81,7 +81,7 @@ body {
   }
 
   .nav {
-    width: 15% !important;
+    width: 20% !important;
     display: flex !important;
     flex-direction: column !important;
   }
