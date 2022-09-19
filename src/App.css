@@ -81,7 +81,7 @@ body {
   }
 
   .nav {
-    width: 40% !important;
+    width: 15% !important;
   }
 
   .logout {
@@ -98,12 +98,6 @@ body {
     display: none !important;
   }
 
-  .nav {
-    background-color: #333333;
-    display: flex !important;
-    flex-direction: column !important;
-    width: 100% !important;
-  }
 
   .hero {
     width: 100% !important;
