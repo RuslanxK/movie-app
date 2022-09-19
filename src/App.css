@@ -183,7 +183,9 @@ body {
     flex-direction: column !important;
     height: 60vh !important;
     justify-content: space-evenly !important;
-    width: 100% !important;
+    align-items: flex-start !important;
+    width: 85% !important;
+    padding-left: 70px;
   }
 
   .addMovieForm {
