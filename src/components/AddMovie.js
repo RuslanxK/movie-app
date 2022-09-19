@@ -117,7 +117,7 @@ function AddMovie() {
                 placeholder="Select Genres"
               />
             </div>
-            <div>
+            <div className="file-btn">
               <FileBase64
                 multiple={false}
                 id="image"
