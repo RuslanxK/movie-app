@@ -187,7 +187,7 @@ body {
   }
 
   .addMovieForm {
-    height: 70vh !important;
+    height: 75vh !important;
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
