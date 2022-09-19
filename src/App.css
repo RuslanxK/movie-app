@@ -65,6 +65,8 @@ body {
 
   .header-container {
     width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
   }
 
   .logo {
@@ -79,7 +81,7 @@ body {
   }
 
   .nav {
-    width: 20% !important;
+    width: 40% !important;
   }
 
   .logout {
