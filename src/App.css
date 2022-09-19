@@ -203,6 +203,7 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: flex-end;
+      width: 200px !important;
   
   }
 
@@ -214,6 +215,7 @@ body {
   input[type="file"] {
     margin-bottom: 25px !important;
     font-size: 20px;
+    width: 200px !important;
     background: none !important;
   }
 
