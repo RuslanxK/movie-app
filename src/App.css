@@ -236,6 +236,12 @@ body {
 }
 
 
+.addMemberForm {
+
+   width: 100% !important;
+}
+
+
   .btns {
     width: 100% !important;
     display: flex !important;
@@ -284,6 +290,9 @@ body {
     width: 100% !important;
   }
 }
+
+
+
 
 .loginPage {
   background: linear-gradient(
