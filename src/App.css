@@ -218,6 +218,7 @@ body {
     font-size: 20px;
     width: 200px !important;
     background: none !important;
+    margin: 0 auto;
   }
 
   input[type="submit"] {
