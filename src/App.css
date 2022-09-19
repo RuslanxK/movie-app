@@ -258,7 +258,8 @@ body {
   }
 
   .addMemberForm h1 {
-    width: 80% !important;
+    width: 100% !important;
+    font-size: 25px !important;
     text-align: center !important;
   }
 
