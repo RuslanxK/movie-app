@@ -225,7 +225,11 @@ body {
     display: flex;
     justify-content: flex-start;
   }
-  
+
+  .select__control.css-1s2u09g-control {
+    width: 220px;
+}
+
 
   .btns {
     width: 100% !important;
