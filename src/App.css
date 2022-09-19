@@ -220,6 +220,13 @@ body {
     background: none !important;
   }
 
+  .submitBtnDiv {
+
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+
   .btns {
     width: 100% !important;
     display: flex !important;
