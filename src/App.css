@@ -180,7 +180,7 @@ body {
     margin: 10px;
   }
 
-  .form, .formm  {
+  .form {
     display: flex !important;
     flex-direction: column !important;
     height: 60vh !important;
@@ -190,6 +190,16 @@ body {
   }
 
 
+  .formm {
+
+    display: flex !important;
+    flex-direction: column !important;
+    height: 60vh !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    padding-left: 50px !important;
+  }
 
   .addMovieForm {
     height: 75vh !important;
