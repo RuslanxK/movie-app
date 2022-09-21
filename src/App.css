@@ -187,7 +187,9 @@ body {
     justify-content: space-evenly !important;
     align-items: flex-start !important;
     width: 100% !important;
+    padding-left: 50px !important;
   }
+
 
   .addMovieForm {
     height: 75vh !important;
