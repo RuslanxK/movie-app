@@ -233,6 +233,7 @@ body {
 
   .addMemberForm {
     width: 100% !important;
+    padding-left: 0px;
   }
 
   .btns {
