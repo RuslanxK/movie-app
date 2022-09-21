@@ -238,7 +238,7 @@ body {
 
   .addMemberForm h1 {
 
-    padding-left: 0px;
+    padding-left: 0px !important;
   }
 
   .btns {
