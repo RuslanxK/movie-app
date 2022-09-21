@@ -140,6 +140,12 @@ body {
     height: 68% !important;
     margin-top: -110px !important;
   }
+  .subsWatched  span{
+
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
 
   .specificMovie {
     height: 110vh !important;
