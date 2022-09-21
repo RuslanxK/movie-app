@@ -7,7 +7,6 @@ body {
   align-items: center;
   justify-content: center;
   background-color: #141414;
-  
 }
 
 @media only screen and (max-width: 767px) {
@@ -140,12 +139,10 @@ body {
     height: 68% !important;
     margin-top: -110px !important;
   }
-  .subsWatched  span{
-
+  .subsWatched span {
     padding: 0px !important;
     margin: 0px !important;
   }
-
 
   .specificMovie {
     height: 110vh !important;
@@ -189,8 +186,7 @@ body {
     height: 60vh !important;
     justify-content: space-evenly !important;
     align-items: flex-start !important;
-    width: 200px !important;
-    
+    width: 100% !important;
   }
 
   .addMovieForm {
@@ -203,13 +199,10 @@ body {
   }
 
   .file-btn {
-
-    
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-end;
-      width: 200px !important;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px !important;
   }
 
   .addMovieForm h1 {
@@ -228,24 +221,19 @@ body {
   }
 
   input[type="submit"] {
-  
-}
+  }
 
   .submitBtnDiv {
 
-   
   }
 
   .select__control.css-1s2u09g-control {
     width: 220px;
-}
+  }
 
-
-.addMemberForm {
-
-   width: 100% !important;
-}
-
+  .addMemberForm {
+    width: 100% !important;
+  }
 
   .btns {
     width: 100% !important;
@@ -296,9 +284,6 @@ body {
     width: 100% !important;
   }
 }
-
-
-
 
 .loginPage {
   background: linear-gradient(
