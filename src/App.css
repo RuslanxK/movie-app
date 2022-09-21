@@ -233,6 +233,11 @@ body {
 
   .addMemberForm {
     width: 100% !important;
+    
+  }
+
+  .addMemberForm h1 {
+
     padding-left: 0px;
   }
 
