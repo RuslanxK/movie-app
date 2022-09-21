@@ -57,7 +57,7 @@ function EditMember() {
     <div className="addMember">
       <div className="addMemberForm">
         <h1>Edit Member</h1>
-        <form className="form" onSubmit={updateMember}>
+        <form className="formm" onSubmit={updateMember}>
           <div>
             <label for="name">Name</label>
             <input

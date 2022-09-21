@@ -45,7 +45,7 @@ function AddMember() {
     <div className="addMember">
       <div className="addMemberForm">
         <h1>Add Member</h1>
-        <form className="form" onSubmit={addMember}>
+        <form className="formm" onSubmit={addMember}>
           <div>
             <label for="name">Name</label>
             <input
