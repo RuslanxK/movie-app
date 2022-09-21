@@ -234,6 +234,8 @@ body {
   .submitBtnDiv {
 
     width: 100%;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .select__control.css-1s2u09g-control {
