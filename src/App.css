@@ -46,6 +46,11 @@ body {
     padding-bottom: 10px;
   }
 
+  .loading h1 {
+
+     font-size: 1.5rem !important;
+  }
+
   .movie-icons {
     width: 50% !important;
   }
@@ -189,9 +194,7 @@ body {
     width: 100% !important;
   }
 
-
   .formm {
-
     display: flex !important;
     flex-direction: column !important;
     height: 60vh !important;
@@ -232,12 +235,8 @@ body {
     margin: 0 auto !important;
   }
 
-  input[type="submit"] {
-  }
 
-  .submitBtnDiv {
-  }
-
+  
   .select__control.css-1s2u09g-control {
     width: 300px;
   }
@@ -921,7 +920,8 @@ label {
   margin-right: 90px;
 }
 
-.form, .formm {
+.form,
+.formm {
   width: 950px;
   height: 250px;
   display: grid;
@@ -930,19 +930,20 @@ label {
   align-items: center;
 }
 
-
-
-.form input, .formm input {
+.form input,
+.formm input {
   width: 200px;
   font-size: 1.5rem;
   margin-left: 15px;
 }
 
-.form input:focus, .formm input:focus{
+.form input:focus,
+.formm input:focus {
   outline: none;
 }
 
-.form label, .formm label {
+.form label,
+.formm label {
   font-size: 1.3rem;
 }
 
@@ -1108,6 +1109,7 @@ label {
   align-items: center;
   display: flex;
 }
+
 
 .loading h1 {
   font-size: 3rem;
