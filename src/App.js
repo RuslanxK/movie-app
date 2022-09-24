@@ -13,6 +13,8 @@ import Header from "./components/Header";
 import "./App.css";
 import Footer from "./components/Footer";
 import { useLocation } from "react-router-dom";
+import BasicExample from "./components/BootstrapNav";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const location = useLocation();
@@ -22,6 +24,8 @@ function App() {
       {location.pathname === "/" || location.pathname === "/register" ? null : (
         <Header />
       )}
+
+      <BasicExample />
 
       <Routes>
         <Route path="/" element={<Login />} />
