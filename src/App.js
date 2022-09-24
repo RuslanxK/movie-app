@@ -13,7 +13,7 @@ import Header from "./components/Header";
 import "./App.css";
 import Footer from "./components/Footer";
 import { useLocation } from "react-router-dom";
-import BasicExample from "./components/BootstrapNav";
+
 
 
 function App() {
@@ -25,7 +25,6 @@ function App() {
         <Header />
       )}
 
-      <BasicExample />
 
       <Routes>
         <Route path="/" element={<Login />} />
