@@ -868,3 +868,300 @@ body {
 .addmovieForm select:active {
   outline: none !important;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .movies {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+    height: 650vh !important;
+  }
+
+  .loginPage {
+    height: 100vh !important;
+  }
+
+  .movie {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
+    padding: 0px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .movie img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  .movie span {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .loading h1 {
+
+     font-size: 1.5rem !important;
+  }
+
+  .movie-icons {
+    width: 50% !important;
+  }
+
+  .member-icons {
+    width: 35% !important;
+  }
+
+  .movie-icons svg,
+  .member-icons svg {
+    font-size: 2rem;
+  }
+
+  .header {
+    width: 100% !important;
+  }
+
+  .header-container {
+    width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .logo {
+    width: 50% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    font-size: 2rem !important;
+  }
+
+  .header-container h1 {
+    font-size: 17px !important;
+  }
+
+  .nav {
+    width: 40% !important;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .logout {
+    width: 100% !important;
+  }
+
+  .userInfo {
+    width: 70% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  #fullname {
+    display: none !important;
+  }
+
+  .hero {
+    width: 100% !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    background-size: cover !important;
+  }
+
+  .hero-text {
+    width: 100% !important;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .logo h1 {
+    font-size: 17px !important;
+  }
+
+  .hero-text h1 {
+    font-size: 3rem !important;
+  }
+
+  .hero-text span {
+    font-size: 1.4rem !important;
+  }
+
+  .searchBar {
+    width: 100% !important;
+  }
+
+  .searchBar input {
+    width: 300px !important;
+  }
+
+  .subsWatched {
+    width: 100% !important;
+    height: 68% !important;
+    margin-top: -110px !important;
+  }
+  .subsWatched span {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+
+  .specificMovie {
+    height: 110vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .specificMovieCard {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .specificMovieCard img {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+
+  .specificContent {
+    width: 100% !important;
+  }
+
+  .subscriptionsPage {
+    height: 230vh !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .memberDiv {
+    margin: 10px;
+  }
+
+  .form {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 60vh !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+  }
+
+  .formm {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 60vh !important;
+    justify-content: space-evenly !important;
+    align-items: flex-start !important;
+    width: 100% !important;
+    padding-left: 50px !important;
+  }
+
+  .addMovieForm {
+    height: 75vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
+    width: 100% !important;
+  }
+
+  .file-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 200px !important;
+  }
+
+  .addMovieForm h1 {
+    width: 100% !important;
+    padding: 0px !important;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+
+  input[type="file"] {
+    padding-bottom: 20px !important;
+    font-size: 20px;
+    width: 200px !important;
+    background: none !important;
+    margin: 0 auto !important;
+  }
+
+
+  
+  .select__control.css-1s2u09g-control {
+    width: 300px;
+  }
+
+  .addMemberForm {
+    width: 100% !important;
+  }
+
+  .addMemberForm h1 {
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+  }
+
+  .btns {
+    width: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    padding-top: 25px !important;
+  }
+
+  .addMovieBtn {
+    font-size: large !important;
+  }
+
+  .addMemberForm {
+    height: 70vh !important;
+  }
+
+  .addMemberForm h1 {
+    width: 100% !important;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+
+  .LoginForm {
+    padding: 0px !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+
+  .LoginForm input {
+    width: 280px !important;
+  }
+
+  .logo {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .loginBtn {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+
+  .footer {
+    width: 100% !important;
+  }
+}
