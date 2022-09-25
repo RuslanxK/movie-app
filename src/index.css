@@ -1,0 +1,1483 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Rubik";
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #141414;
+}
+
+.header {
+  background-color: #141414;
+  color: white;
+  width: 100vw;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .header-container {
+  width: 80vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  align-items: center;
+}
+
+.header .header-container h1 {
+  width: 25vw;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fafaff;
+  margin-left: 10px;
+}
+
+.header .logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  color: #da22ff;
+}
+
+.header .nav {
+  width: 25vw;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.header a {
+  color: whitesmoke;
+  text-decoration: none;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#9733ee), to(#9733ee));
+  background-image: linear-gradient(#9733ee, #9733ee);
+  background-size: 0% 0.1em;
+  background-position-y: 100%;
+  background-position-x: 0%;
+  background-repeat: no-repeat;
+  -webkit-transition: background-size 0.2s ease-in-out;
+  transition: background-size 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header a:hover {
+  background-size: 100% 0.1em;
+  cursor: pointer;
+}
+
+.header .userInfo {
+  width: 25vw;
+  text-align: end;
+}
+
+.header .logout {
+  background-image: -webkit-gradient(linear, left top, right top, from(#da22ff), color-stop(51%, #9733ee), to(#da22ff));
+  background-image: linear-gradient(to right, #da22ff 0%, #9733ee 51%, #da22ff 100%);
+  padding: 8px 30px;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.header .logout:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginPage {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.7))), url("https://wallpapercave.com/wp/wnCoprl.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://wallpapercave.com/wp/wnCoprl.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loginPage h1 {
+  color: white;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 2rem;
+}
+
+.loginPage h2 {
+  font-size: 1.5rem;
+  color: whitesmoke;
+}
+
+.loginPage .LoginForm {
+  background: rgba(0, 0, 0, 0.6);
+  height: 460px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.loginPage .LoginForm span {
+  color: red;
+}
+
+.loginPage input {
+  background-color: #333333;
+  border: none;
+  color: white;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.loginPage input::-webkit-input-placeholder {
+  padding-left: 7px !important;
+}
+
+.loginPage input:-ms-input-placeholder {
+  padding-left: 7px !important;
+}
+
+.loginPage input::-ms-input-placeholder {
+  padding-left: 7px !important;
+}
+
+.loginPage input::placeholder {
+  padding-left: 7px !important;
+}
+
+.loginPage .buttonDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 300px;
+}
+
+.loginPage .buttonDiv p {
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loginPage .buttonDiv span {
+  padding-left: 5px;
+}
+
+.loginPage .loginBtn {
+  background-image: -webkit-gradient(linear, left top, right top, from(#da22ff), color-stop(51%, #9733ee), to(#da22ff));
+  background-image: linear-gradient(to right, #da22ff 0%, #9733ee 51%, #da22ff 100%);
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-transform: uppercase;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: 1px solid #9733ee;
+  font-weight: 600;
+}
+
+.loginPage .loginBtn:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.logOut {
+  border-color: #e50914;
+  color: white;
+  border: none;
+  background-color: #e50914;
+  padding-left: 20px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 20px;
+}
+
+.logOut:hover {
+  background-color: #ba1926;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), color-stop(90%, rgba(0, 0, 0, 0)));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 90%);
+}
+
+.hero {
+  background-color: #9733ee;
+  height: 500px;
+  width: 100vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(151, 51, 238, 0.5)), to(#141414)), url("https://images.unsplash.com/photo-1568876694728-451bbf694b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+  background: linear-gradient(to bottom, rgba(151, 51, 238, 0.5), #141414), url("https://images.unsplash.com/photo-1568876694728-451bbf694b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: whitesmoke;
+}
+
+.hero-text {
+  width: 1200px;
+  padding-bottom: 30px;
+}
+
+.hero-text h1 {
+  font-size: 5rem;
+  line-height: 0;
+  color: whitesmoke;
+}
+
+.hero-text span {
+  word-spacing: 1px;
+  color: #a8a8a8;
+}
+
+.movies {
+  width: 78vw;
+  margin: 0 auto;
+  padding-top: 35px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 230px 230px 230px 230px 230px;
+      grid-template-columns: 230px 230px 230px 230px 230px;
+  height: 100vh;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.movies .watchBtn {
+  color: black;
+  border: none;
+  background-color: #ffffff;
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  margin-right: 5px;
+  font-weight: 800;
+}
+
+.movies .watchBtn:hover {
+  background-color: #ced4da;
+}
+
+.movies .moviesBtn {
+  border-color: #e50914;
+  color: white;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 25px;
+  margin-left: 5px;
+}
+
+.movies .moviesBtn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+}
+
+.movies .movie {
+  color: whitesmoke;
+  margin: 0 auto;
+  text-align: left;
+  height: 360px;
+}
+
+.movies .movie img {
+  height: 230px;
+  width: 230px;
+}
+
+.movies .movie img:hover {
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+  opacity: 0.7;
+}
+
+.movies .movie-icons {
+  width: 75px;
+  padding-top: 10px;
+  font-size: 1.3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.movies #edit-icon:hover,
+.movies #delete-icon:hover,
+.movies #film-icon:hover {
+  color: #af5ff6;
+}
+
+.movies .movie:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
+}
+
+.editBtn {
+  color: black;
+  border: none;
+  background-color: #ffffff;
+  padding-left: 35px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 35px;
+  font-weight: 800;
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.deleteBtn {
+  border: 1px solid whitesmoke;
+  color: white;
+  background: none;
+  padding-left: 35px;
+  padding-top: 7px;
+  border-radius: 20px;
+  padding-bottom: 7px;
+  padding-right: 35px;
+}
+
+.editBtn:hover,
+.addMovieBtn:hover,
+.allMoviesBtn:hover,
+.allMembersBtn:hover,
+.addMemberBtn:hover,
+.subNewMovie:hover,
+#addBtn:hover,
+#cancelBtn:hover,
+#searchBtn:hover {
+  background-color: #ced4da;
+}
+
+.deleteBtn:hover {
+  background-color: purple;
+}
+
+.searchBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.searchBar input {
+  width: 600px;
+  padding: 15px;
+  border-radius: none;
+  font-size: 15px;
+  border: none;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color: #757575;
+  background: black url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+  background-size: 25px;
+}
+
+.btns {
+  text-align: center;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.allMoviesBtn,
+.addMovieBtn,
+.allMembersBtn,
+.addMemberBtn,
+.subNewMovie,
+.subscribeBtn,
+.addMemberForm button,
+.addMovieForm button,
+#addBtn,
+#cancelBtn {
+  color: black;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#da22ff), color-stop(51%, #9733ee), to(#da22ff));
+  background-image: linear-gradient(to right, #da22ff 0%, #9733ee 51%, #da22ff 100%);
+  color: white;
+  padding-left: 35px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-right: 35px;
+  margin-right: 5px;
+  font-weight: 800;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+}
+
+.addMovieBtn:hover,
+.subNewMovie:hover,
+.addMemberBtn:hover,
+.subscribeBtn:hover,
+.addMemberForm button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.addMovie,
+.editMovie,
+.editMember,
+.addMember {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+}
+
+.addMovie input,
+.editMovie input,
+.editMember input,
+.addMember input {
+  background: none;
+  border: none;
+  width: 350px;
+  border-bottom: 1px solid white;
+  border-radius: 0px;
+  color: #c2c2c2;
+}
+
+.addMovie label,
+.editMovie label,
+.editMember label,
+.addMember label {
+  color: #eaeaea !important;
+}
+
+.memberDiv {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  background-color: black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px;
+  color: whitesmoke;
+  width: 265px;
+}
+
+.memberDiv div {
+  color: white;
+  font-weight: 600;
+}
+
+.memberDiv span {
+  font-weight: 600;
+}
+
+.subscriptionsPage {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 300px 300px 300px 300px;
+      grid-template-columns: 300px 300px 300px 300px;
+  margin: 0 auto;
+  padding-top: 30px;
+  height: 60vh;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+}
+
+.memberDiv:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+  webkit-transition-duration: 0.3s;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+
+#moviesWatched {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  height: 155px;
+  overflow-y: auto;
+}
+
+.subsWatched {
+  background-color: #000000c7;
+  position: absolute;
+  overflow-y: auto;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 230px;
+  height: 182px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: -305px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.subsWatched a,
+.moviesWatched a {
+  color: #00c8ff;
+}
+
+.subsWatched a:hover,
+.moviesWatched a:hover {
+  color: #00c8ff;
+}
+
+.subscribeDiv {
+  background-color: #000000;
+  position: absolute;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+          box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  -webkit-animation: fadein 1s;
+          animation: fadein 1s;
+  width: 270px;
+  height: 180px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.subscribeDiv input,
+.subscribeDiv select {
+  width: 200px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 1rem;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+.subscribeDiv select {
+  width: 225px;
+}
+
+.subscribeDiv input[type="submit"] {
+  border-radius: 20px;
+  width: 225px;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.specificMovie {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.specificMovieCard {
+  color: whitesmoke;
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.specificMovie img {
+  width: 40vw;
+  height: 75vh;
+}
+
+.specificContent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vh;
+}
+
+.specificContent button {
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.specificContent h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: whitesmoke;
+}
+
+.specificContent span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.specificContent p {
+  text-align: center;
+  line-height: 2;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.addMember,
+.addMovie {
+  height: 100vh;
+  background-color: #141414;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addMemberForm h1 {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  padding-left: 90px;
+  font-size: 2.2rem;
+  color: white;
+  font-weight: bold;
+}
+
+.addMovieForm {
+  background-color: #000000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 1200px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addMovieForm h1 {
+  padding-left: 125px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 2.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.addMemberForm {
+  background-color: #000000;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 1200px;
+  height: 355px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.addMemberForm h1 {
+  padding-left: 125px;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  font-size: 2.8rem;
+  color: white;
+  font-weight: bold;
+}
+
+.submitBtnDiv {
+  width: 65vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.addMovieForm input[type="submit"],
+.addMemberForm input[type="submit"],
+.specificContent button {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  background-image: -webkit-gradient(linear, left top, right top, from(#da22ff), color-stop(51%, #9733ee), to(#da22ff));
+  background-image: linear-gradient(to right, #da22ff 0%, #9733ee 51%, #da22ff 100%);
+  padding: 7px 22px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+.addMovieForm input[type="submit"]:hover,
+.addMemberForm input[type="submit"]:hover,
+.specificContent button:hover {
+  background-position: right center;
+  /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.addMovieForm input[type="file"] {
+  width: 350px;
+  background-color: #141414;
+  border: none;
+  padding: 20px;
+}
+
+.addMemberForm button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 90px;
+}
+
+.form,
+.formm {
+  width: 950px;
+  height: 250px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 350px 350px 350px;
+      grid-template-columns: 350px 350px 350px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form input,
+.formm input {
+  width: 200px;
+  font-size: 1.5rem;
+  margin-left: 15px;
+}
+
+.form input:focus,
+.formm input:focus {
+  outline: none;
+}
+
+.form label,
+.formm label {
+  font-size: 1.3rem;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+#paginationBtn {
+  padding: 5px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 5px;
+  background: none;
+  border: 1px solid whitesmoke;
+  color: whitesmoke;
+}
+
+#paginationBtn:focus {
+  background-color: #af5ff6;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.loading {
+  background-color: #141414;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.loading h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #141414;
+  width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100px;
+  border-top: 1px solid #af5ff6;
+}
+
+.footer .allRights {
+  color: whitesmoke;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#fullname {
+  padding-right: 20px;
+}
+
+#icon {
+  padding-right: 15px;
+}
+
+#calendar {
+  padding-left: 5px;
+}
+
+#memberH1 {
+  color: white;
+  font-size: 2.8rem;
+  text-align: center;
+}
+
+#success {
+  color: #af5ff6;
+}
+
+.addedDateText {
+  color: #af5ff6;
+  padding-top: 10px;
+}
+
+.AddedText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 30px;
+}
+
+.select__control {
+  background-color: #000000 !important;
+  border: none !important;
+  border-bottom: 1px solid whitesmoke !important;
+  border-radius: 0px !important;
+  outline: none !important;
+}
+
+.css-1rhbuit-multiValue {
+  background-color: #da22ff !important;
+  color: white !important;
+}
+
+.css-12jo7m5 {
+  color: white !important;
+}
+
+.addmovieForm select:active {
+  outline: none !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .movies {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    height: 650vh !important;
+  }
+  .loginPage {
+    height: 100vh !important;
+  }
+  .movie {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    width: 100% !important;
+    padding: 0px !important;
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  .movie img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+  .movie span {
+    font-size: 1.2rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .loading h1 {
+    font-size: 1.5rem !important;
+  }
+  .movie-icons {
+    width: 50% !important;
+  }
+  .member-icons {
+    width: 35% !important;
+  }
+  .movie-icons svg,
+  .member-icons svg {
+    font-size: 2rem;
+  }
+  .header {
+    width: 100% !important;
+  }
+  .header-container {
+    width: 100% !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .logo {
+    width: 50% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: end !important;
+        -ms-flex-pack: end !important;
+            justify-content: flex-end !important;
+    font-size: 2rem !important;
+  }
+  .header-container h1 {
+    font-size: 17px !important;
+  }
+  .nav {
+    width: 40% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+  }
+  .logout {
+    width: 100% !important;
+  }
+  .userInfo {
+    width: 70% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #fullname {
+    display: none !important;
+  }
+  .hero {
+    width: 100% !important;
+    text-align: center !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    background-size: cover !important;
+  }
+  .hero-text {
+    width: 100% !important;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .logo h1 {
+    font-size: 17px !important;
+  }
+  .hero-text h1 {
+    font-size: 3rem !important;
+  }
+  .hero-text span {
+    font-size: 1.4rem !important;
+  }
+  .searchBar {
+    width: 100% !important;
+  }
+  .searchBar input {
+    width: 300px !important;
+  }
+  .subsWatched {
+    width: 100% !important;
+    height: 68% !important;
+    margin-top: -110px !important;
+  }
+  .subsWatched span {
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .specificMovie {
+    height: 110vh !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .specificMovieCard {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    width: 100% !important;
+    text-align: center !important;
+  }
+  .specificMovieCard img {
+    width: 100% !important;
+    height: 40vh !important;
+  }
+  .specificContent {
+    width: 100% !important;
+  }
+  .subscriptionsPage {
+    height: 230vh !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+  }
+  .memberDiv {
+    margin: 10px;
+  }
+  .form {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    height: 60vh !important;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    width: 100% !important;
+  }
+  .formm {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    height: 60vh !important;
+    -webkit-box-pack: space-evenly !important;
+        -ms-flex-pack: space-evenly !important;
+            justify-content: space-evenly !important;
+    -webkit-box-align: start !important;
+        -ms-flex-align: start !important;
+            align-items: flex-start !important;
+    width: 100% !important;
+    padding-left: 50px !important;
+  }
+  .addMovieForm {
+    height: 75vh !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    width: 100% !important;
+  }
+  .file-btn {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 200px !important;
+  }
+  .addMovieForm h1 {
+    width: 100% !important;
+    padding: 0px !important;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  input[type="file"] {
+    padding-bottom: 20px !important;
+    font-size: 20px;
+    width: 200px !important;
+    background: none !important;
+    margin: 0 auto !important;
+  }
+  .select__control.css-1s2u09g-control {
+    width: 300px;
+  }
+  .addMemberForm {
+    width: 100% !important;
+  }
+  .addMemberForm h1 {
+    padding-left: 0px !important;
+    padding-top: 15px !important;
+  }
+  .btns {
+    width: 100% !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    padding-top: 25px !important;
+  }
+  .addMovieBtn {
+    font-size: large !important;
+  }
+  .addMemberForm {
+    height: 70vh !important;
+  }
+  .addMemberForm h1 {
+    width: 100% !important;
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+  .LoginForm {
+    padding: 0px !important;
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+    -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+            align-items: center !important;
+    margin: 0 auto !important;
+    text-align: center !important;
+  }
+  .LoginForm input {
+    width: 280px !important;
+  }
+  .logo {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .loginBtn {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .footer {
+    width: 100% !important;
+  }
+}
+/*# sourceMappingURL=index.css.map */
