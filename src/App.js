@@ -10,7 +10,7 @@ import AddMember from "./components/AddMember";
 import SpecificMovie from "./components/SpecificMovie";
 import Register from "./components/Register";
 import Header from "./components/Header";
-import "./App.css";
+import "./index.scss";
 import Footer from "./components/Footer";
 import { useLocation } from "react-router-dom";
 
