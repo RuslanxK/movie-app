@@ -604,6 +604,14 @@ body {
   font-weight: 600;
 }
 
+.memberDiv .member-icons {
+  font-size: 1.5rem;
+}
+
+.memberDiv .member-icons #delete-icon {
+  padding-left: 15px;
+}
+
 .subscriptionsPage {
   display: -ms-grid;
   display: grid;
