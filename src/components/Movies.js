@@ -27,9 +27,10 @@ function Movies() {
       const { data: movies } = await axios.get(moviesURL, {
         headers: {
           "x-access-token": accessToken,
-          "Access-Control-Allow-Origin": true,
-          Accept: "application/json",
           "Content-Type": "application/json",
+          'Access-Control-Allow-Origin': '*',
+          'Access-Control-Allow-Headers': '*',
+          'Access-Control-Allow-Credentials': 'true'
         },
       });
 
