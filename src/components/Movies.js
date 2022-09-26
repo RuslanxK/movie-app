@@ -22,12 +22,14 @@ function Movies() {
   useEffect(() => {
     const accessToken = sessionStorage["accessToken"];
 
+    console.log(accessToken);
+
     const fetchData = async () => {
       setLoading(true);
       const { data: movies } = await axios.get(moviesURL, {
         headers: {
           "x-access-token": accessToken,
-          'Accept': 'application/json',
+          Accept: "application/json",
           "Content-Type": "application/json",
         },
       });
