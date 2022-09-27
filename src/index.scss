@@ -44,10 +44,10 @@ body {
   }
 
   .logo {
-    display: flex;
+    display: flex !important;
+    flex-direction: row !important;
     font-size: 1.5rem;
     align-items: center;
-    flex-direction: row-reverse;
     color: #da22ff;
   }
 
@@ -122,11 +122,11 @@ body {
     color: white;
     font-weight: bold;
     padding-left: 10px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h2 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: whitesmoke;
   }
 
@@ -141,6 +141,17 @@ body {
 
     span {
       color: red;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      padding-bottom: 15px;
+    }
+
+    .svg-inline--fa.fa-video {
+      color: #9733ee;
+      font-size: 1.5rem;
     }
   }
 
