@@ -1137,7 +1137,7 @@ body {
 
   .addMemberForm h1 {
     width: 100% !important;
-    font-size: 25px !important;
+    font-size: 50px !important;
     text-align: center !important;
   }
 
@@ -1149,6 +1149,12 @@ body {
     align-items: center !important;
     margin: 0 auto !important;
     text-align: center !important;
+    width: 350px;
+
+    p {
+
+        padding-top: 10px;
+    }
   }
 
   .LoginForm input {
