@@ -1479,6 +1479,14 @@ body {
   .LoginForm p {
     padding-top: 10px;
   }
+  .LoginForm h1 {
+    font-size: 1.3rem !important;
+    width: 100%;
+    padding-right: 5px;
+  }
+  .LoginForm .svg-inline--fa.fa-video {
+    color: #9733ee;
+  }
   .LoginForm input {
     width: 280px !important;
   }

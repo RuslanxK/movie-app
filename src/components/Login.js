@@ -53,8 +53,8 @@ function Login() {
     <div className="loginPage">
       <div className="LoginForm">
         <div className="logo">
-          <h1>Movie Mania</h1>
           <FontAwesomeIcon icon={faVideoCamera} />
+          <h1>Movie Mania</h1>
         </div>{" "}
         <br />
         <h2>Sign In</h2>

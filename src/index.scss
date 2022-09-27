@@ -1152,8 +1152,17 @@ body {
     width: 350px;
 
     p {
+      padding-top: 10px;
+    }
 
-        padding-top: 10px;
+    h1 {
+      font-size: 1.3rem !important;
+      width: 100%;
+      padding-right: 5px;
+    }
+
+    .svg-inline--fa.fa-video {
+      color: #9733ee;
     }
   }
 
