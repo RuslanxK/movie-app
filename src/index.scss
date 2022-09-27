@@ -240,17 +240,16 @@ body {
   justify-content: center;
   align-items: flex-end;
   color: whitesmoke;
-
 }
 
 .hero-text {
   width: 1200px;
   padding-bottom: 30px;
-  line-height: 6;
 
   h1 {
     font-size: 5rem;
     color: whitesmoke;
+    line-height: 1;
   }
 
   span {
@@ -258,7 +257,6 @@ body {
     color: rgb(168, 168, 168);
   }
 }
-
 
 .movies {
   width: 78vw;
@@ -490,14 +488,15 @@ body {
   }
 
   .member-icons {
-
     font-size: 1.5rem;
 
     #delete-icon {
-
-       padding-left: 15px;
+      padding-left: 15px;
     }
-    
+
+    svg:hover {
+      color: #9733ee;
+    }
   }
 }
 
@@ -775,6 +774,7 @@ body {
 
 .pagination {
   @include flexBox();
+  flex-direction: row;
   color: white;
   padding-bottom: 10px;
   padding-top: 25px;
@@ -882,12 +882,6 @@ body {
   outline: none !important;
 }
 
-
-
-
-
-
-
 @media only screen and (max-width: 767px) {
   .movies {
     display: flex !important;
@@ -926,8 +920,7 @@ body {
   }
 
   .loading h1 {
-
-     font-size: 1.5rem !important;
+    font-size: 1.5rem !important;
   }
 
   .movie-icons {
@@ -1114,8 +1107,6 @@ body {
     margin: 0 auto !important;
   }
 
-
-  
   .select__control.css-1s2u09g-control {
     width: 300px;
   }
