@@ -48,8 +48,9 @@ function Register() {
     <div className="loginPage">
       <div className="LoginForm">
         <div className="logo">
+        <FontAwesomeIcon icon={faVideoCamera} />
           <h1>Movie Mania</h1>
-          <FontAwesomeIcon icon={faVideoCamera} />
+          
         </div>{" "}
         <br />
         <form onSubmit={register}>
