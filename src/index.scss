@@ -249,7 +249,6 @@ body {
 
   h1 {
     font-size: 5rem;
-    line-height: 1 !important;
     color: whitesmoke;
   }
 
@@ -257,6 +256,11 @@ body {
     word-spacing: 1px;
     color: rgb(168, 168, 168);
   }
+}
+
+.hero-text h1 {
+
+  line-height: 1 !important;
 }
 
 .movies {
