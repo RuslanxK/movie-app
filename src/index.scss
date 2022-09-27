@@ -246,6 +246,7 @@ body {
 .hero-text {
   width: 1200px;
   padding-bottom: 30px;
+  line-height: 6;
 
   h1 {
     font-size: 5rem;
@@ -258,10 +259,6 @@ body {
   }
 }
 
-.hero-text h1 {
-
-  line-height: 1 !important;
-}
 
 .movies {
   width: 78vw;
