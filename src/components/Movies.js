@@ -16,7 +16,7 @@ function Movies() {
   const [searchVal, setSearchVal] = useState("");
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [moviesPerPage] = useState(10);
+  const [moviesPerPage] = useState(11);
   const [reducerValue, forceUpdate] = useReducer((x) => x + 1, 0);
 
   useEffect(() => {
